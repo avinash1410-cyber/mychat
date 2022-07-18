@@ -1,11 +1,12 @@
 # Django VIDEO CHAT
 Tutorial "Local Library" website written in Django.
 <h1><a href="https://myvcchat.herokuapp.com/">LIVE AT</a></h1>
-![image](https://user-images.githubusercontent.com/74523129/179559700-7f735066-90bc-49fc-831b-98789f0988fc.png)
+
 ## Quick Start
 
 To get this project up and running locally on your computer:
-1. Set up the [Python development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment).
+1. Set up the [Python development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Djang![vc](https://user-images.githubusercontent.com/74523129/179614102-0b0221cd-886c-4ec0-a60a-fc311de97500.png)
+o/development_environment).
    We recommend using a Python virtual environment.
    > **Note:** This has been tested against Django 3.1.2 (and may not work or be "optimal" for other versions).
 1. Assuming you have Python setup, run the following commands (if you're on Windows you may use `py` or `py -3` instead of `python` to start Python):
