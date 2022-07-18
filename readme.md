@@ -2,7 +2,6 @@
 Tutorial "Local Library" website written in Django.
 <h1><a href="https://myvcchat.herokuapp.com/">LIVE AT</a></h1>
 ![image](https://user-images.githubusercontent.com/74523129/179559700-7f735066-90bc-49fc-831b-98789f0988fc.png)
-
 ## Quick Start
 
 To get this project up and running locally on your computer:
