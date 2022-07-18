@@ -138,10 +138,10 @@ DATABASES['default'].update(db_from_env)
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 # The absolute path to the directory where collectstatic will collect static files for deployment.
-STATIC_ROOT = BASE_DIR / 'staticfiles'  #. os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 # The URL to use when referring to static files (where they will be served from)
 STATIC_URL = '/static/'
-
 
 # Static file serving.
 # http://whitenoise.evans.io/en/stable/django.html#django-middleware
