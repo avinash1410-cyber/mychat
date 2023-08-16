@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 # Set hosts to allow any app on Heroku and the local testing URL
-ALLOWED_HOSTS = ['.vercel.app','.now.sh']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh','127.0.0.1']
 
 
 # Application definition
@@ -145,6 +145,10 @@ STATIC_URL = '/static/'
 
 # Static file serving.
 # http://whitenoise.evans.io/en/stable/django.html#django-middleware
+
+# Configure WhiteNoise to serve compressed and cached static files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
